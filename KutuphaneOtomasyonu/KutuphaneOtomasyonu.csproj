@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F7E3247-D8D8-4EEF-B269-C99947BD9A92}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KutuphaneOtomasyonu</RootNamespace>
+    <AssemblyName>KutuphaneOtomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\..\..\zedgraph_dll_v5.1.5\ZedGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph.Web">
+      <HintPath>..\..\..\zedgraph_dll_v5.1.5\ZedGraph.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anasayfa.Designer.cs">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emanet_iade_gösterim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emanet_iade_gösterim.Designer.cs">
+      <DependentUpon>emanet_iade_gösterim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iade_ve_emanet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iade_ve_emanet.Designer.cs">
+      <DependentUpon>iade_ve_emanet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitap_grafik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitap_grafik.Designer.cs">
+      <DependentUpon>kitap_grafik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitap_islemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitap_islemleri.Designer.cs">
+      <DependentUpon>kitap_islemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenci_emanet_iade_gösterim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrenci_emanet_iade_gösterim.Designer.cs">
+      <DependentUpon>ogrenci_emanet_iade_gösterim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenci_islemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrenci_islemleri.Designer.cs">
+      <DependentUpon>ogrenci_islemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="anasayfa.resx">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emanet_iade_gösterim.resx">
+      <DependentUpon>emanet_iade_gösterim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="iade_ve_emanet.resx">
+      <DependentUpon>iade_ve_emanet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitap_grafik.resx">
+      <DependentUpon>kitap_grafik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitap_islemleri.resx">
+      <DependentUpon>kitap_islemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogrenci_emanet_iade_gösterim.resx">
+      <DependentUpon>ogrenci_emanet_iade_gösterim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ogrenci_islemleri.resx">
+      <DependentUpon>ogrenci_islemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formresim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BL\BL.csproj">
+      <Project>{4b694b1e-7427-44e7-ac21-1a90f32dc634}</Project>
+      <Name>BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{c2c120be-a711-4191-8d88-86f12aeaf4d5}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{714b03c1-0f8c-4cf9-9d3b-2a127b11f6d0}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anasayfa1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-new-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-trash-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-find-and-replace-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-available-updates-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-end-button-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-transaction-list-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-transaction-list-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-google-web-search-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-book-shelf-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-new-1001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitaplar-696x435.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emanet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emanetkitap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girisim-kitap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emanetkitap1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

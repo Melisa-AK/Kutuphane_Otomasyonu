@@ -1,0 +1,14 @@
+C:\Users\kübra selçuk\Desktop\melisa\KutuphaneOtomasyonu\DAL\bin\Debug\DAL.dll
+C:\Users\kübra selçuk\Desktop\melisa\KutuphaneOtomasyonu\DAL\bin\Debug\DAL.pdb
+C:\Users\kübra selçuk\Desktop\melisa\KutuphaneOtomasyonu\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\kübra selçuk\Desktop\melisa\KutuphaneOtomasyonu\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\kübra selçuk\Desktop\melisa\KutuphaneOtomasyonu\DAL\obj\Debug\DAL.dll
+C:\Users\kübra selçuk\Desktop\melisa\KutuphaneOtomasyonu\DAL\obj\Debug\DAL.pdb
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\DAL\bin\Debug\DAL.dll.config
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\DAL\bin\Debug\DAL.dll
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\DAL\bin\Debug\DAL.pdb
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\DAL\obj\Debug\DAL.dll
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\DAL\obj\Debug\DAL.pdb
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\DAL\bin\Debug\Kütüphane_Oto.mdb

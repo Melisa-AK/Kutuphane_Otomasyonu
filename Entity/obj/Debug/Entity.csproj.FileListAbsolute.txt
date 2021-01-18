@@ -1,0 +1,12 @@
+C:\Users\kübra selçuk\Desktop\melisa\KutuphaneOtomasyonu\Entity\bin\Debug\Entity.dll
+C:\Users\kübra selçuk\Desktop\melisa\KutuphaneOtomasyonu\Entity\bin\Debug\Entity.pdb
+C:\Users\kübra selçuk\Desktop\melisa\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+C:\Users\kübra selçuk\Desktop\melisa\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\kübra selçuk\Desktop\melisa\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.dll
+C:\Users\kübra selçuk\Desktop\melisa\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.pdb
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\Entity\bin\Debug\Entity.dll
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\Entity\bin\Debug\Entity.pdb
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.dll
+C:\Users\Melisa Ak\Desktop\KutuphaneOtomasyonu\Entity\obj\Debug\Entity.pdb
