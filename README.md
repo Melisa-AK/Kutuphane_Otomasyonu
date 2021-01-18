@@ -1,11 +1,5 @@
 <html>
-   <head>
-      <style>
-         .div{
-         margin-left: 9%;
-         }   
-      </style>
-   </head>
+  
    <body>
       <div class="div" >
          <h3 >Anasayfa</h3>
